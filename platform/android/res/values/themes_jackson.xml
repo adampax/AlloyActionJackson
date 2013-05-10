@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Generated with http://android-holo-colors.com -->
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <style name="Jackson" parent="android:Theme.Light">
+
+    <item name="android:editTextStyle">@style/EditTextJackson</item>
+
+    <item name="android:checkboxStyle">@style/CheckBoxJackson</item>
+
+    <item name="android:radioButtonStyle">@style/RadioButtonJackson</item>
+
+    <item name="android:buttonStyle">@style/ButtonJackson</item>
+
+    <item name="android:imageButtonStyle">@style/ImageButtonJackson</item>
+
+    <item name="android:spinnerStyle">@style/SpinnerJackson</item>
+
+    <item name="android:dropDownSpinnerStyle">@style/SpinnerJackson.DropDown</item>
+
+    <item name="android:spinnerDropDownItemStyle">@style/SpinnerDropDownItemJackson</item>
+
+    <item name="android:progressBarStyleHorizontal">@style/ProgressBarJackson</item>
+
+    <item name="android:seekBarStyle">@style/SeekBarJackson</item>
+
+    <item name="android:ratingBarStyle">@style/RatingBarJackson</item>
+
+    <item name="android:ratingBarStyleIndicator">@style/RatingBarBigJackson</item>
+
+    <item name="android:ratingBarStyleSmall">@style/RatingBarSmallJackson</item>
+
+    <item name="android:buttonStyleToggle">@style/ToggleJackson</item>
+
+  </style>
+
+</resources>

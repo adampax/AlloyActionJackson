@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Generated with http://android-holo-colors.com -->
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <style name="Jackson" parent="android:Theme.Holo.Light.DarkActionBar">
+
+    <item name="android:editTextBackground">@drawable/edit_text_holo_light</item>
+
+    <item name="android:listChoiceIndicatorMultiple">@drawable/btn_check_holo_light</item>
+
+    <item name="android:listChoiceIndicatorSingle">@drawable/btn_radio_holo_light</item>
+
+    <item name="android:buttonStyle">@style/ButtonJackson</item>
+
+    <item name="android:imageButtonStyle">@style/ImageButtonJackson</item>
+
+    <item name="android:dropDownSpinnerStyle">@style/SpinnerJackson</item>
+
+    <item name="android:tabWidgetStyle">@style/TabWidgetJackson</item>
+
+    <item name="android:progressBarStyleHorizontal">@style/ProgressBarJackson</item>
+
+    <item name="android:seekBarStyle">@style/SeekBarJackson</item>
+
+    <item name="android:ratingBarStyle">@style/RatingBarJackson</item>
+
+    <item name="android:ratingBarStyleIndicator">@style/RatingBarBigJackson</item>
+
+    <item name="android:ratingBarStyleSmall">@style/RatingBarSmallJackson</item>
+
+    <item name="android:buttonStyleToggle">@style/ToggleJackson</item>
+
+    <item name="android:fastScrollThumbDrawable">@drawable/fastscroll_thumb_holo</item>
+
+  </style>
+
+</resources>

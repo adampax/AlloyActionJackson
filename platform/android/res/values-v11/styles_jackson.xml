@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Generated with http://android-holo-colors.com -->
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <style name="ButtonJackson" parent="android:Widget.Holo.Light.Button">
+	  <item name="android:background">@drawable/btn_default_holo_light</item>
+  </style>
+
+  <style name="ImageButtonJackson" parent="android:Widget.Holo.Light.ImageButton">
+	  <item name="android:background">@drawable/btn_default_holo_light</item>
+  </style>
+
+  <style name="SpinnerJackson" parent="android:Widget.Holo.Light.Spinner">
+      <item name="android:background">@drawable/spinner_background_holo_light</item>
+      <item name="android:dropDownSelector">@drawable/list_selector_holo_light</item>
+  </style>
+
+  <style name="TabWidgetJackson" parent="@android:style/Widget.TabWidget">
+      <item name="android:tabStripLeft">@null</item>
+      <item name="android:tabStripRight">@null</item>
+      <item name="android:tabStripEnabled">false</item>
+      <item name="android:divider">?android:attr/dividerVertical</item>
+      <item name="android:showDividers">middle</item>
+      <item name="android:dividerPadding">8dip</item>
+      <item name="android:measureWithLargestChild">true</item>
+      <item name="tabLayout">@layout/tab_indicator_holo</item>
+  </style>
+
+  <style name="TabJackson" parent="@android:style/Widget.ActionBar.TabView">
+      <item name="android:paddingLeft">16dip</item>
+      <item name="android:paddingRight">16dip</item>
+      <item name="android:background">@drawable/tab_indicator_holo</item>
+      <item name="android:layout_width">0dip</item>
+      <item name="android:layout_weight">1</item>
+      <item name="android:minWidth">80dip</item>
+  </style>
+
+  <style name="TabTextJackson">
+	  <item name="android:textColor">#000000</item>
+      <item name="android:textSize">12sp</item>
+      <item name="android:textStyle">bold</item>
+      <item name="android:textAllCaps">true</item>
+      <item name="android:ellipsize">marquee</item>
+      <item name="android:maxLines">2</item>
+      <item name="android:maxWidth">180dip</item>
+  </style>
+
+  <style name="ProgressBarJackson" parent="android:Widget.Holo.Light.ProgressBar.Horizontal">
+      <item name="android:progressDrawable">@drawable/progress_horizontal_holo_light</item>
+      <item name="android:indeterminateDrawable">@drawable/progress_indeterminate_horizontal_holo_light</item>
+  </style>
+
+  <style name="SeekBarJackson" parent="android:Widget.Holo.Light.SeekBar">
+      <item name="android:progressDrawable">@drawable/scrubber_progress_horizontal_holo_light</item>
+      <item name="android:indeterminateDrawable">@drawable/scrubber_progress_horizontal_holo_light</item>
+      <item name="android:thumb">@drawable/scrubber_control_selector_holo_light</item>
+  </style>
+
+  <style name="RatingBarJackson" parent="android:Widget.Holo.Light.RatingBar">
+      <item name="android:progressDrawable">@drawable/ratingbar_full_holo_light</item>
+      <item name="android:indeterminateDrawable">@drawable/ratingbar_full_holo_light</item>
+  </style>
+
+  <style name="RatingBarBigJackson" parent="android:Widget.Holo.Light.RatingBar.Indicator">
+      <item name="android:progressDrawable">@drawable/ratingbar_holo_light</item>
+      <item name="android:indeterminateDrawable">@drawable/ratingbar_holo_light</item>
+  </style>
+
+  <style name="RatingBarSmallJackson" parent="android:Widget.Holo.Light.RatingBar.Small">
+      <item name="android:progressDrawable">@drawable/ratingbar_small_holo_light</item>
+      <item name="android:indeterminateDrawable">@drawable/ratingbar_small_holo_light</item>
+  </style>
+
+  <style name="ToggleJackson" parent="android:Widget.Holo.Light.Button.Toggle">
+      <item name="android:background">@drawable/btn_toggle_holo_light</item>
+  </style>
+
+</resources>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ti:app xmlns:ti="http://ti.appcelerator.org">
+    <id>com.polancomedia.alloyactionjackson</id>
+    <name>AlloyActionJackson</name>
+    <version>1.0</version>
+    <publisher>adam</publisher>
+    <url>http://polancomedia.com</url>
+    <description>not specified</description>
+    <copyright>2013 by adam</copyright>
+    <icon>appicon.png</icon>
+    <persistent-wifi>false</persistent-wifi>
+    <prerendered-icon>false</prerendered-icon>
+    <statusbar-style>default</statusbar-style>
+    <statusbar-hidden>false</statusbar-hidden>
+    <fullscreen>false</fullscreen>
+    <navbar-hidden>false</navbar-hidden>
+    <analytics>true</analytics>
+    <guid>81f92459-ddb9-47e0-81b9-1db8170d7f67</guid>
+    <property name="ti.ui.defaultunit" type="string">system</property>
+    <iphone>
+        <orientations device="iphone">
+            <orientation>Ti.UI.PORTRAIT</orientation>
+        </orientations>
+        <orientations device="ipad">
+            <orientation>Ti.UI.PORTRAIT</orientation>
+            <orientation>Ti.UI.UPSIDE_PORTRAIT</orientation>
+            <orientation>Ti.UI.LANDSCAPE_LEFT</orientation>
+            <orientation>Ti.UI.LANDSCAPE_RIGHT</orientation>
+        </orientations>
+    </iphone>
+    <android xmlns:android="http://schemas.android.com/apk/res/android">
+    	<!--Add the following tool and manifest entries. 
+    		Also add your theme name: android:theme="@style/Theme.MyThemeName"
+    	-->
+    	
+		<tool-api-level>14</tool-api-level>
+		<manifest>
+			<application android:theme="@style/Theme.Action"/>
+			<uses-sdk android:minSdkVersion="14"/>
+			<uses-sdk android:targetSdkVersion="16"/>
+		</manifest>
+	</android>
+    <mobileweb>
+        <precache/>
+        <splash>
+            <enabled>true</enabled>
+            <inline-css-images>true</inline-css-images>
+        </splash>
+        <theme>default</theme>
+    </mobileweb>
+    <modules/>
+    <deployment-targets>
+        <target device="blackberry">false</target>
+        <target device="android">true</target>
+        <target device="ipad">false</target>
+        <target device="iphone">false</target>
+        <target device="mobileweb">false</target>
+        <target device="tizen">false</target>
+    </deployment-targets>
+    <sdk-version>3.1.0.GA</sdk-version>
+    <plugins>
+        <plugin version="1.0">ti.alloy</plugin>
+    </plugins>
+</ti:app>
