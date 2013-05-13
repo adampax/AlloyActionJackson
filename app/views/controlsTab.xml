@@ -1,0 +1,27 @@
+<Alloy>
+	<Tab title="Some Controls">
+		<Window>
+			<ScrollView class="container">
+				<Button>Enabled Button</Button>
+				<Button enabled="false">Disabled Button</Button>
+				<TextField hintText="Text field w/ Hint Text" />
+				<Switch titleOn="Action Switch On" titleOff="Action is Always On" />
+				<Switch style="Ti.UI.Android.SWITCH_STYLE_CHECKBOX" title="Checkbox Style Switch" />
+				<Button onClick="showModalIndicator">Modal Progress Indicator</Button>
+				<ProgressIndicator ns="Ti.UI.Android" platform="android"
+					id="progressIndicator" message="Loading..." min="0" max="10"
+					cancelable="true" location="Ti.UI.Android.PROGRESS_INDICATOR_DIALOG"
+					type="Ti.UI.Android.PROGRESS_INDICATOR_DETERMINANT" />
+				
+				<Button onClick="showStatusIndicator">Status Bar Progress Indicator</Button>
+				<ProgressIndicator ns="Ti.UI.Android" platform="android"
+					id="statusIndicator" message="Loading..." min="0" max="10"
+					cancelable="true" location="Ti.UI.Android.PROGRESS_INDICATOR_STATUS_BAR"
+					type="Ti.UI.Android.PROGRESS_INDICATOR_DETERMINANT" />
+				
+								
+			</ScrollView>
+
+		</Window>
+	</Tab>
+</Alloy>

@@ -23,8 +23,8 @@
 },
 
 'TextField':{
-	//height:'60dp',
 	width:'300dp',
-	top:'10dp'
+	top:'10dp',
+	softKeyboardOnFocus: Titanium.UI.Android.SOFT_KEYBOARD_HIDE_ON_FOCUS
 }
 	

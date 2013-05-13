@@ -1,15 +1,6 @@
 <Alloy>
 	<TabGroup>
-		<Tab title="Some Controls">
-			<Window>
-				<ScrollView class="container">
-					<Button>Enabled Button</Button>
-					<Button enabled="false">Disabled Button</Button>
-					<TextField hintText="Text field w/ Hint Text" />
-					<Switch titleOn='On' titleOff='Off' value=true />
-				</ScrollView>
-			</Window>
-		</Tab>
+		<Require src="controlsTab" />
 		<Require src="menuTab" />
 		<Tab title="Tab 3">
 			<Window title="Tab 3">
