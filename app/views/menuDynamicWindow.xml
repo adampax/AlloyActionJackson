@@ -1,0 +1,5 @@
+<Alloy>
+	<Window id="win" title="Dynamically Created Menu" onOpen="doOpen">
+		<Label>Check out the dynamically created menu at top-right, or via the menu hardware button if you're running an old, crusty phone.'</Label>
+	</Window>
+</Alloy>

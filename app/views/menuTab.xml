@@ -1,0 +1,8 @@
+<Alloy>
+	<Tab title="Menu Items">
+		<Window class="container" title="Menu Items">
+			<Button onClick="Alloy.Globals.openSubWindow" controller="menuMarkupWindow">Menu Created In Markup</Button>
+			<Button onClick="Alloy.Globals.openSubWindow" controller="menuDynamicWindow">Menu Created Dynamically</Button>
+		</Window>
+	</Tab>
+</Alloy>

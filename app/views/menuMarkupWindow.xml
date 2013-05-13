@@ -1,0 +1,8 @@
+<Alloy>
+	<Window title="Markup Menu" onOpen="doOpen">
+		<Menu>
+			<MenuItem title="Action" onClick="doAction" />
+		</Menu>
+		<Label>Check out the menu at top-right, or via the menu hardware button if you're running an old, crusty phone.</Label>
+	</Window>
+</Alloy>

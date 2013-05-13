@@ -1,0 +1,30 @@
+'.container': {
+	layout: 'vertical'
+},
+
+'Window': {
+	navBarHidden: false,
+	backgroundColor: '#ffffff'
+},
+
+'Button': {
+	height: '60dp',
+	width: '300dp',
+	top: '10dp'
+},
+
+'Label':{
+	left:'10dp',
+	top:'10dp',
+	textAlign: Ti.UI.TEXT_ALIGNMENT_LEFT,
+	font:{
+		fontSize: '14dp'
+	}
+},
+
+'TextField':{
+	//height:'60dp',
+	width:'300dp',
+	top:'10dp'
+}
+	

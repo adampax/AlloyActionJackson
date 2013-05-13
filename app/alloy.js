@@ -9,3 +9,13 @@
 // object. For example:
 //
 // Alloy.Globals.someGlobalFunction = function(){};
+
+
+Alloy.Globals.openSubWindow = function(e){
+	if(e.source.controller){
+		Ti.API.info(e.source.controller)
+		Alloy.createController(e.source.controller).getView().open();
+	} else {
+		alert('Err, No Controller Specified');
+	}
+}

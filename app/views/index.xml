@@ -1,13 +1,24 @@
 <Alloy>
 	<TabGroup>
-		<Tab title="Tab 1" icon="KS_nav_ui.png">
-			<Window title="Tab 1">
-				<Button>Click Me</Button>
+		<Tab title="Some Controls">
+			<Window>
+				<ScrollView class="container">
+					<Button>Enabled Button</Button>
+					<Button enabled="false">Disabled Button</Button>
+					<TextField hintText="Text field w/ Hint Text" />
+					<Switch titleOn='On' titleOff='Off' value=true />
+				</ScrollView>
 			</Window>
 		</Tab>
-		<Tab title="Tab 2" icon="KS_nav_views.png">
-			<Window title="Tab 2">
-				<Label>I am Window 2</Label>
+		<Require src="menuTab" />
+		<Tab title="Tab 3">
+			<Window title="Tab 3">
+				<Label>I am Window 3</Label>
+			</Window>
+		</Tab>
+		<Tab title="Tab 4">
+			<Window title="Tab 4">
+				<Label>I am Window 4</Label>
 			</Window>
 		</Tab>
 	</TabGroup>
