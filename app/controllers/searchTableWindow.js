@@ -12,7 +12,7 @@ function doOpen() {
 	};
 
 	//Add the searchview
-	http://docs.appcelerator.com/titanium/latest/#!/api/Titanium.UI.Android.SearchView
+	//http://docs.appcelerator.com/titanium/latest/#!/api/Titanium.UI.Android.SearchView
 	activity.onCreateOptionsMenu = function(e) {
 		e.menu.add({
 			title : "Table Search",
