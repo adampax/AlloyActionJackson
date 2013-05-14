@@ -20,6 +20,10 @@
 	font:{
 		fontSize: '14dp'
 	}
+}
+
+'TableView':{
+	top:'10dp'
 },
 
 'TextField':{

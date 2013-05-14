@@ -10,7 +10,8 @@
 //
 // Alloy.Globals.someGlobalFunction = function(){};
 
-
+//simple function for handling opening sub windows
+//controller name is passed as an attribute of the calling control (button, etc)
 Alloy.Globals.openSubWindow = function(e){
 	if(e.source.controller){
 		Ti.API.info(e.source.controller)

@@ -2,4 +2,9 @@
 	top:'10dp',
 	width:'200dp',
 	value:true
+},
+
+'Slider': {
+	top:'10dp',
+	width:'300dp'
 }
