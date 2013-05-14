@@ -1,0 +1,3 @@
+<Alloy>
+    <SearchView id="searchView" ns="Ti.UI.Android" platform="android" hintText="Table Search" />
+</Alloy>

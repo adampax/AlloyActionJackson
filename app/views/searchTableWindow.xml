@@ -1,0 +1,18 @@
+<Alloy>
+	<Window id="win" class="container" title="Search" onOpen="doOpen">
+		<TableView id="tableview" searchAsChild="false" filterAttribute="filter">
+			<TableViewRow filter="Apple">
+				<Label>Apple</Label>
+			</TableViewRow>
+			<TableViewRow filter="Banana">
+				<Label>Banana</Label>
+			</TableViewRow>
+			<TableViewRow filter="Orange">
+				<Label>Orange</Label>
+			</TableViewRow>
+			<TableViewRow filter="Raspberry">
+				<Label>Raspberry</Label>
+			</TableViewRow>
+		</TableView>
+	</Window>
+</Alloy>

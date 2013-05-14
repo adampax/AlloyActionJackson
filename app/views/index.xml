@@ -1,12 +1,8 @@
 <Alloy>
-	<TabGroup>
+	<TabGroup onOpen="doOpen">
 		<Require src="controlsTab" />
 		<Require src="menuTab" />
-		<Tab title="Tab 3">
-			<Window title="Tab 3">
-				<Label>I am Window 3</Label>
-			</Window>
-		</Tab>
+		<Require src="searchTab" />
 		<Tab title="Tab 4">
 			<Window title="Tab 4">
 				<Label>I am Window 4</Label>

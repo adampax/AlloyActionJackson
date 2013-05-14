@@ -1,0 +1,7 @@
+<Alloy>
+	<Tab title="Search">
+		<Window id="win" class="container" title="Search">
+			<Button onClick="Alloy.Globals.openSubWindow" controller="searchTableWindow">Search a TableView</Button>
+		</Window>
+	</Tab>
+</Alloy>
