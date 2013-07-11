@@ -19,6 +19,7 @@
 					id="statusIndicator" message="Loading..." min="0" max="10"
 					cancelable="true" location="Ti.UI.Android.PROGRESS_INDICATOR_STATUS_BAR"
 					type="Ti.UI.Android.PROGRESS_INDICATOR_DETERMINANT" />
+				<SearchBar />
 			</ScrollView>
 
 		</Window>

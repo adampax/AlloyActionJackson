@@ -1,10 +1,16 @@
-'Switch':{
-	top:'10dp',
-	width:'200dp',
-	value:true
+'Switch': {
+	top: '10dp',
+	width: '200dp',
+	value: true
 },
 
 'Slider': {
-	top:'10dp',
+	top: '10dp',
+	width: '300dp'
+},
+
+'SearchBar': {
+	top: '10dp',
+	height:'44dp',
 	width:'300dp'
 }
