@@ -17,6 +17,7 @@
     <analytics>true</analytics>
     <guid>81f92459-ddb9-47e0-81b9-1db8170d7f67</guid>
     <property name="ti.ui.defaultunit" type="string">system</property>
+    <property name="ti.android.fastdev" type="bool">false</property>
     <iphone>
         <orientations device="iphone">
             <orientation>Ti.UI.PORTRAIT</orientation>
@@ -29,17 +30,16 @@
         </orientations>
     </iphone>
     <android xmlns:android="http://schemas.android.com/apk/res/android">
-    	<!--Add the following tool and manifest entries. 
+        <!--Add the following tool and manifest entries. 
     		Also add your theme name: android:theme="@style/Theme.MyThemeName"
     	-->
-    	
-		<tool-api-level>14</tool-api-level>
-		<manifest>
-			<application android:theme="@style/Theme.Action"/>
-			<uses-sdk android:minSdkVersion="14"/>
-			<uses-sdk android:targetSdkVersion="16"/>
-		</manifest>
-	</android>
+        <tool-api-level>14</tool-api-level>
+        <manifest>
+            <application android:theme="@style/Theme.Action"/>
+            <uses-sdk android:minSdkVersion="14"/>
+            <uses-sdk android:targetSdkVersion="16"/>
+        </manifest>
+    </android>
     <mobileweb>
         <precache/>
         <splash>
@@ -57,7 +57,7 @@
         <target device="mobileweb">false</target>
         <target device="tizen">false</target>
     </deployment-targets>
-    <sdk-version>3.1.0.GA</sdk-version>
+    <sdk-version>3.1.1.GA</sdk-version>
     <plugins>
         <plugin version="1.0">ti.alloy</plugin>
     </plugins>
