@@ -1,0 +1,9 @@
+<Alloy>
+	<Window id="win" title="Default Title" onOpen="doOpen">
+	    <View class="container">
+	    	<Button title="Change Title" onClick="doChangeTitle" />
+	    	<Button title="Toggle Up Arrow" onClick="doToggleUpArrow" />
+	    	<Button title="Toggle Action Bar" onClick="doToggleActionBar" />
+	    </View>
+	</Window>
+</Alloy>

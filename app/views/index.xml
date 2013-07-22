@@ -3,10 +3,6 @@
 		<Require src="controlsTab" />
 		<Require src="menuTab" />
 		<Require src="searchTab" />
-		<Tab title="Tab 4">
-			<Window title="Tab 4">
-				<Label>I am Window 4</Label>
-			</Window>
-		</Tab>
+		<Require src="other/otherTab" />
 	</TabGroup>
 </Alloy>

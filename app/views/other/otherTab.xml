@@ -1,0 +1,7 @@
+<Alloy>
+	<Tab title="Other Stuff">
+		<Window id="win" class="container">
+			<Button onClick="Alloy.Globals.openSubWindow" controller="other/modifyActionBar">Modify Stuff on an Opened Window</Button>
+		</Window>
+	</Tab>
+</Alloy>
