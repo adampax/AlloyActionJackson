@@ -36,8 +36,7 @@
         <tool-api-level>14</tool-api-level>
         <manifest>
             <application android:theme="@style/Theme.Action"/>
-            <uses-sdk android:minSdkVersion="14"/>
-            <uses-sdk android:targetSdkVersion="16"/>
+            <uses-sdk android:minSdkVersion="14" android:targetSdkVersion="16"/>
         </manifest>
     </android>
     <mobileweb>
