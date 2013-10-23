@@ -2,6 +2,7 @@
 	<Tab title="Other Stuff">
 		<Window id="win" class="container">
 			<Button onClick="Alloy.Globals.openSubWindow" controller="other/modifyActionBar">Modify Stuff on an Opened Window</Button>
+			<Button onClick="Alloy.Globals.openSubWindow" controller="other/modalWindow">Open Modal Window with Custom Theme</Button>
 		</Window>
 	</Tab>
 </Alloy>

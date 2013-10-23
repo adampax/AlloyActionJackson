@@ -35,7 +35,12 @@
     	-->
         <tool-api-level>14</tool-api-level>
         <manifest>
-            <application android:theme="@style/Theme.Action"/>
+            <application android:theme="@style/Theme.Action">
+            	<!-- define the modal activity here so that it also receives our custom theme>
+            	see: http://docs.appcelerator.com/titanium/latest/#!/guide/Android_Themes -->
+            	<activity android:configChanges="keyboardHidden|orientation|screenSize" 
+            		android:name="org.appcelerator.titanium.TiModalActivity" />
+            </application>
             <uses-sdk android:minSdkVersion="14" android:targetSdkVersion="16"/>
         </manifest>
     </android>
