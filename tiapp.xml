@@ -33,15 +33,15 @@
         <!--Add the following tool and manifest entries. 
     		Also add your theme name: android:theme="@style/Theme.MyThemeName"
     	-->
-        <tool-api-level>14</tool-api-level>
         <manifest>
             <application android:theme="@style/Theme.Action">
-            	<!-- define the modal activity here so that it also receives our custom theme>
-            	see: http://docs.appcelerator.com/titanium/latest/#!/guide/Android_Themes -->
-            	<activity android:configChanges="keyboardHidden|orientation|screenSize" 
-            		android:name="org.appcelerator.titanium.TiModalActivity" />
+                <!-- define the modal activity here so that it also receives our custom theme>
+            	see: http://docs.appcelerator.com/titanium/latest/#!/guide/Android_Themes 
+            	NOTE: in 3.2.0, the activity name changed from TiModalActivity to TiTranslucentActivity
+            	-->
+                <activity android:name="org.appcelerator.titanium.TiTranslucentActivity"/>
             </application>
-            <uses-sdk android:minSdkVersion="14" android:targetSdkVersion="16"/>
+            <uses-sdk android:minSdkVersion="14" android:targetSdkVersion="18"/>
         </manifest>
     </android>
     <mobileweb>
@@ -61,7 +61,7 @@
         <target device="mobileweb">false</target>
         <target device="tizen">false</target>
     </deployment-targets>
-    <sdk-version>3.1.1.GA</sdk-version>
+    <sdk-version>3.2.0.GA</sdk-version>
     <plugins>
         <plugin version="1.0">ti.alloy</plugin>
     </plugins>
