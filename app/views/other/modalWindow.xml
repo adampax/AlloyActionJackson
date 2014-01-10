@@ -1,5 +1,5 @@
 <Alloy>
-	<Window id="win" class="container" title="Modal Window" onOpen="doOpen">
+	<Window id="win" class="container" title="Modal Window">
 	    <Label>See the comments in other/modalWindow.js for more info.</Label>
 	</Window>
 </Alloy>
