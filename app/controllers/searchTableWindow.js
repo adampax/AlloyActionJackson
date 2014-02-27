@@ -20,7 +20,7 @@ function doOpen() {
 			actionView : search,
 			showAsAction : Ti.Android.SHOW_AS_ACTION_ALWAYS | Ti.Android.SHOW_AS_ACTION_COLLAPSE_ACTION_VIEW
 		});
-	}
+	};
 	activity.invalidateOptionsMenu();
 
 }

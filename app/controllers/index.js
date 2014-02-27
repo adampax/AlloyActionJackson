@@ -6,7 +6,7 @@ function doOpen() {
 	var activity = $.index.activity;
 
 	if (activity.actionBar) {
-		activity.actionBar.title = "Action Jackson"
+		activity.actionBar.title = "Action Jackson";
 	}
 
 	activity.onCreateOptionsMenu = function(e) {
@@ -32,7 +32,7 @@ function doOpen() {
 				}).show();
 			}
 		});
-	}
+	};
 }
 
 $.index.open();
