@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Generated with http://android-holo-colors.com -->
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <style name="JacksonAppCompat" parent="@style/_JacksonAppCompat"/>
+
+  <style name="_JacksonAppCompat" parent="Theme.AppCompat.Light.DarkActionBar">
+
+    <item name="android:editTextStyle">@style/EditTextJacksonAppCompat</item>
+
+    <item name="android:textColorHighlight">#99269ae9</item>
+
+    <item name="android:autoCompleteTextViewStyle">@style/AutoCompleteTextViewJacksonAppCompat</item>
+
+    <item name="android:checkboxStyle">@style/CheckBoxJacksonAppCompat</item>
+
+    <item name="android:radioButtonStyle">@style/RadioButtonJacksonAppCompat</item>
+
+    <item name="android:buttonStyle">@style/ButtonJacksonAppCompat</item>
+
+    <item name="android:imageButtonStyle">@style/ImageButtonJacksonAppCompat</item>
+
+    <item name="android:spinnerStyle">@style/SpinnerJacksonAppCompat</item>
+
+    <item name="android:spinnerDropDownItemStyle">@style/SpinnerDropDownItemJacksonAppCompat</item>
+
+    <item name="android:progressBarStyleHorizontal">@style/ProgressBarJacksonAppCompat</item>
+
+    <item name="android:seekBarStyle">@style/SeekBarJacksonAppCompat</item>
+
+    <item name="android:ratingBarStyle">@style/RatingBarJacksonAppCompat</item>
+
+    <item name="android:ratingBarStyleIndicator">@style/RatingBarBigJacksonAppCompat</item>
+
+    <item name="android:ratingBarStyleSmall">@style/RatingBarSmallJacksonAppCompat</item>
+
+    <item name="android:buttonStyleToggle">@style/ToggleJacksonAppCompat</item>
+
+    <item name="android:listViewStyle">@style/ListViewJacksonAppCompat</item>
+
+    <item name="android:listViewWhiteStyle">@style/ListViewJacksonAppCompat.White</item>
+
+    <item name="android:spinnerItemStyle">@style/SpinnerItemJacksonAppCompat</item>
+
+  </style>
+
+</resources>

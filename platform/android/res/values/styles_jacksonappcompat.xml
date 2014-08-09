@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Generated with http://android-holo-colors.com -->
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <style name="EditTextJacksonAppCompat" parent="android:Widget.EditText">
+	  <item name="android:background">@drawable/jacksonappcompat_edit_text_holo_light</item>
+	  <item name="android:textColor">#000000</item>
+  </style>
+
+  <style name="AutoCompleteTextViewJacksonAppCompat" parent="android:Widget.AutoCompleteTextView">
+      <item name="android:dropDownSelector">@drawable/jacksonappcompat_list_selector_holo_light</item>
+	  <item name="android:background">@drawable/jacksonappcompat_edit_text_holo_light</item>
+	  <item name="android:textColor">#000000</item>
+  </style>
+
+  <style name="CheckBoxJacksonAppCompat" parent="android:Widget.CompoundButton.CheckBox">
+      <item name="android:button">@drawable/jacksonappcompat_btn_check_holo_light</item>
+  </style>
+
+  <style name="RadioButtonJacksonAppCompat" parent="android:Widget.CompoundButton.RadioButton">
+      <item name="android:button">@drawable/jacksonappcompat_btn_radio_holo_light</item>
+  </style>
+
+  <style name="ButtonJacksonAppCompat" parent="android:Widget.Button">
+	  <item name="android:background">@drawable/jacksonappcompat_btn_default_holo_light</item>
+	  <item name="android:minHeight">48dip</item>
+	  <item name="android:minWidth">64dip</item>
+	  <item name="android:textColor">#000000</item>
+  </style>
+
+  <style name="ImageButtonJacksonAppCompat" parent="android:Widget.ImageButton">
+	  <item name="android:background">@drawable/jacksonappcompat_btn_default_holo_light</item>
+  </style>
+
+  <style name="SpinnerJacksonAppCompat" parent="android:Widget.Spinner">
+      <item name="android:background">@drawable/jacksonappcompat_spinner_background_holo_light</item>
+      <item name="android:dropDownSelector">@drawable/jacksonappcompat_list_selector_holo_light</item>
+  </style>
+
+  <style name="SpinnerDropDownItemJacksonAppCompat" parent="android:Widget.DropDownItem.Spinner">
+      <item name="android:checkMark">@drawable/jacksonappcompat_btn_radio_holo_light</item>
+  </style>
+  <style name="TabJacksonAppCompat">
+      <item name="android:gravity">center_horizontal</item>
+      <item name="android:paddingLeft">16dip</item>
+      <item name="android:paddingRight">16dip</item>
+      <item name="android:background">@drawable/jacksonappcompat_tab_indicator_holo</item>
+      <item name="android:layout_width">0dip</item>
+      <item name="android:layout_weight">1</item>
+      <item name="android:minWidth">80dip</item>
+  </style>
+
+  <style name="TabTextJacksonAppCompat">
+	  <item name="android:textColor">#000000</item>
+      <item name="android:textSize">12sp</item>
+      <item name="android:textStyle">bold</item>
+      <!-- v14 <item name="android:textAllCaps">true</item> -->
+      <item name="android:ellipsize">marquee</item>
+      <item name="android:maxLines">2</item>
+      <item name="android:maxWidth">180dip</item>
+  </style>
+
+  <style name="ProgressBarJacksonAppCompat" parent="android:Widget.ProgressBar.Horizontal">
+      <item name="android:progressDrawable">@drawable/jacksonappcompat_progress_horizontal_holo_light</item>
+      <item name="android:indeterminateDrawable">@drawable/jacksonappcompat_progress_indeterminate_horizontal_holo_light</item>
+      <item name="android:minHeight">16dip</item>
+      <item name="android:maxHeight">16dip</item>
+  </style>
+
+  <style name="SeekBarJacksonAppCompat" parent="android:Widget.SeekBar">
+      <item name="android:progressDrawable">@drawable/jacksonappcompat_scrubber_progress_horizontal_holo_light</item>
+      <item name="android:indeterminateDrawable">@drawable/jacksonappcompat_scrubber_progress_horizontal_holo_light</item>
+      <item name="android:minHeight">13dip</item>
+      <item name="android:maxHeight">13dip</item>
+      <item name="android:thumb">@drawable/jacksonappcompat_scrubber_control_selector_holo_light</item>
+      <item name="android:thumbOffset">16dip</item>
+      <item name="android:paddingLeft">16dip</item>
+      <item name="android:paddingRight">16dip</item>
+  </style>
+
+  <style name="RatingBarJacksonAppCompat" parent="android:Widget.RatingBar">
+      <item name="android:progressDrawable">@drawable/jacksonappcompat_ratingbar_full_holo_light</item>
+      <item name="android:indeterminateDrawable">@drawable/jacksonappcompat_ratingbar_full_holo_light</item>
+  </style>
+
+  <style name="RatingBarBigJacksonAppCompat" parent="android:Widget.RatingBar">
+      <item name="android:progressDrawable">@drawable/jacksonappcompat_ratingbar_holo_light</item>
+      <item name="android:indeterminateDrawable">@drawable/jacksonappcompat_ratingbar_holo_light</item>
+      <item name="android:minHeight">35dip</item>
+      <item name="android:maxHeight">35dip</item>
+  </style>
+
+  <style name="RatingBarSmallJacksonAppCompat" parent="android:Widget.RatingBar">
+      <item name="android:progressDrawable">@drawable/jacksonappcompat_ratingbar_small_holo_light</item>
+      <item name="android:indeterminateDrawable">@drawable/jacksonappcompat_ratingbar_small_holo_light</item>
+      <item name="android:minHeight">16dip</item>
+      <item name="android:maxHeight">16dip</item>
+  </style>
+
+  <style name="ToggleJacksonAppCompat" parent="android:Widget.Button.Toggle">
+      <item name="android:background">@drawable/jacksonappcompat_btn_toggle_holo_light</item>
+      <item name="android:minHeight">48dip</item>
+	  <item name="android:textColor">#000000</item>
+  </style>
+
+  <style name="ListViewJacksonAppCompat" parent="android:Widget.ListView">
+      <item name="android:listSelector">@drawable/jacksonappcompat_list_selector_holo_light</item>
+  </style>
+
+  <style name="ListViewJacksonAppCompat.White" parent="android:Widget.ListView.White">
+      <item name="android:listSelector">@drawable/jacksonappcompat_list_selector_holo_light</item>
+  </style>
+
+  <style name="SpinnerItemJacksonAppCompat" parent="android:TextAppearance.Widget.TextView.SpinnerItem">
+      <item name="android:textColor">#000000</item>
+  </style>
+
+</resources>

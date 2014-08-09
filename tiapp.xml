@@ -34,14 +34,14 @@
     		Also add your theme name: android:theme="@style/Theme.MyThemeName"
     	-->
         <manifest>
-            <application android:theme="@style/Theme.Action">
+            <application android:theme="@style/Theme.Actionappcompat">
                 <!-- define the modal activity here so that it also receives our custom theme>
             	see: http://docs.appcelerator.com/titanium/latest/#!/guide/Android_Themes 
             	NOTE: in 3.2.0, the activity name changed from TiModalActivity to TiTranslucentActivity
             	-->
                 <activity android:name="org.appcelerator.titanium.TiTranslucentActivity"/>
             </application>
-            <uses-sdk android:minSdkVersion="14" android:targetSdkVersion="18"/>
+            <uses-sdk android:minSdkVersion="10" android:targetSdkVersion="19"/>
         </manifest>
     </android>
     <mobileweb>
@@ -61,7 +61,7 @@
         <target device="mobileweb">false</target>
         <target device="tizen">false</target>
     </deployment-targets>
-    <sdk-version>3.2.1.GA</sdk-version>
+    <sdk-version>3.3.0.GA</sdk-version>
     <plugins>
         <plugin version="1.0">ti.alloy</plugin>
     </plugins>

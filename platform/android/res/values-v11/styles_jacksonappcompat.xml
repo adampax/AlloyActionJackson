@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Generated with http://android-holo-colors.com -->
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <style name="AutoCompleteTextViewJacksonAppCompat" parent="android:Widget.Holo.Light.AutoCompleteTextView">
+      <item name="android:dropDownSelector">@drawable/jacksonappcompat_list_selector_holo_light</item>
+	    <item name="android:background">@drawable/jacksonappcompat_edit_text_holo_light</item>
+  </style>
+
+  <style name="ButtonJacksonAppCompat" parent="android:Widget.Holo.Light.Button">
+	  <item name="android:background">@drawable/jacksonappcompat_btn_default_holo_light</item>
+  </style>
+
+  <style name="ImageButtonJacksonAppCompat" parent="android:Widget.Holo.Light.ImageButton">
+	  <item name="android:background">@drawable/jacksonappcompat_btn_default_holo_light</item>
+  </style>
+
+  <style name="SpinnerJacksonAppCompat" parent="android:Widget.Holo.Light.Spinner">
+      <item name="android:background">@drawable/jacksonappcompat_spinner_background_holo_light</item>
+      <item name="android:dropDownSelector">@drawable/jacksonappcompat_list_selector_holo_light</item>
+  </style>
+
+  <style name="ProgressBarJacksonAppCompat" parent="android:Widget.Holo.Light.ProgressBar.Horizontal">
+      <item name="android:progressDrawable">@drawable/jacksonappcompat_progress_horizontal_holo_light</item>
+      <item name="android:indeterminateDrawable">@drawable/jacksonappcompat_progress_indeterminate_horizontal_holo_light</item>
+  </style>
+
+  <style name="SeekBarJacksonAppCompat" parent="android:Widget.Holo.Light.SeekBar">
+      <item name="android:progressDrawable">@drawable/jacksonappcompat_scrubber_progress_horizontal_holo_light</item>
+      <item name="android:indeterminateDrawable">@drawable/jacksonappcompat_scrubber_progress_horizontal_holo_light</item>
+      <item name="android:thumb">@drawable/jacksonappcompat_scrubber_control_selector_holo_light</item>
+  </style>
+
+  <style name="RatingBarJacksonAppCompat" parent="android:Widget.Holo.Light.RatingBar">
+      <item name="android:progressDrawable">@drawable/jacksonappcompat_ratingbar_full_holo_light</item>
+      <item name="android:indeterminateDrawable">@drawable/jacksonappcompat_ratingbar_full_holo_light</item>
+  </style>
+
+  <style name="RatingBarBigJacksonAppCompat" parent="android:Widget.Holo.Light.RatingBar.Indicator">
+      <item name="android:progressDrawable">@drawable/jacksonappcompat_ratingbar_holo_light</item>
+      <item name="android:indeterminateDrawable">@drawable/jacksonappcompat_ratingbar_holo_light</item>
+  </style>
+
+  <style name="RatingBarSmallJacksonAppCompat" parent="android:Widget.Holo.Light.RatingBar.Small">
+      <item name="android:progressDrawable">@drawable/jacksonappcompat_ratingbar_small_holo_light</item>
+      <item name="android:indeterminateDrawable">@drawable/jacksonappcompat_ratingbar_small_holo_light</item>
+  </style>
+
+  <style name="ToggleJacksonAppCompat" parent="android:Widget.Holo.Light.Button.Toggle">
+      <item name="android:background">@drawable/jacksonappcompat_btn_toggle_holo_light</item>
+  </style>
+
+</resources>
